@@ -1,0 +1,76 @@
+#buscador{
+    display: none;
+}
+
+nav{
+    display: grid;
+    grid-template-columns: repeat(7,auto);
+}
+.nav{
+    background-color: transparent;
+    border-color: transparent;
+/*    width: 20%;
+    height: 20%;*/
+}
+#n1, #n2, #n6 {
+    height: 58%;
+    width: 39%;
+}
+#n3, #n4, #n5{
+    height: 39%;
+    width: 19%;
+}
+.barra-vertical{
+    display: none;
+}
+#b1{
+    grid-area: b1;
+    width: 97%;
+}
+#b2{
+    grid-area: b2;
+    width: 97%;
+}
+#b3{
+    grid-area: b3;
+    width: 97%;
+}
+#b4{
+    grid-area: b4;
+    width: 97%;
+}
+#b8{
+    grid-area: b8;
+    width: 97%;
+}
+#b12{
+    grid-area: b12;
+    width: 10%;
+    background-color: transparent;
+    border-color: transparent;
+}
+.barra-horizontal{
+    display: grid;
+    gap: 1%;
+    grid-template-areas:
+        "b1 b2 b3 b4 b8 b12";
+    white-space:nowrap;
+}
+
+.ocultar{
+    display: none;
+}
+.videos-musica{
+    display: grid;
+    grid-template-columns: 100%;
+    width: 50;
+    height: auto;
+}
+#palabra-shorts{
+    display: grid;
+    grid-column: 1;
+}
+#shorts{
+    display: grid;
+    grid-column: 2;
+}
